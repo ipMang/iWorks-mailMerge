@@ -1,5 +1,5 @@
 # iWorks-mailMerge
-AppleScript Mail Merge for Pages &amp; Numbers
+AppleScript Mail Merge for Pages &amp; Numbers on Mac & iOS
 
 Usage:
 - create a new Pages document by merging 1 row of data in Numbers table into a Pages Template, on your Mac
