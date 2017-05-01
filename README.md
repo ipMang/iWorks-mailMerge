@@ -25,4 +25,4 @@ For merging a lot of letters.....
 
 Limitation
 - If there are two placeholders inside a single cell of a table, Pages cannot replace the second placeholder. This is Pages' limitation. (This is a known "bug" and dunno why Apple doesn't fix)
-
+- must use latest Pages and Numbers version (as of April 2017). Old version Numbers seems not have keywords "every", "count" in applescript dictionary.
