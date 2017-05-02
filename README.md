@@ -1,15 +1,14 @@
-# WIP iWorks-mailMerge
-AppleScript Mail Merge for Pages &amp; Numbers on Mac & iOS
+# iWork-mailMerge (data merge function only)
+AppleScript Data Merge for Pages &amp; Numbers on Mac
 
-# WIP to delete unnessary inferface, left only core data merge function
-
+## This is reduced version of master branch, omitted opening and saving functions, only merge function remains
 
 ## Usage:
-- create a new Pages document by merging 1 row of data in Numbers table into a Pages Template, on your Mac
+- Merging 1 row of data in Numbers table into a Pages doc on your Mac
 
 ## How to use:
 - open your iWork Numbers table (data in first table of active sheet)
-- open your Pages file with placeholder text
+- open your Pages file with placeholder text (placeholder text should be same as Numbers table headers)
 - run the script with Script Editor
 - Viola!
 
