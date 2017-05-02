@@ -20,6 +20,7 @@ on run (rowNo)
 		repeat
 			set x to display dialog "Input row no. of table (not record no.)" default answer "integer"
 			try
+				1 / (text returned of x as integer)
 				set rowNo to text returned of x as integer
 				exit repeat
 			end try
@@ -48,10 +49,10 @@ on run (rowNo)
 			
 			-- set header list
 			set thisHeader to value of cell i of row 1
-			set end of headerList to thisHeader
 			if headerList does not contain thisHeader then
 				set end of duplicateHeaderList to thisHeader -- put duplicate headers into list
 			end if
+			set end of headerList to thisHeader
 		end repeat
 		
 	end tell
